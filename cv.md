@@ -34,7 +34,7 @@ function points(games) {
 ###### For example I am attaching the link for the [current CV-project](https://github.com/YBiheza/rsschool-cv/blob/gh-pages/cv.md)
 ---
 ### **Education:** 
-* Belarusian State University of Informatics and Radioelectronics (2022); 
-* European Humanities University (Epam School of Digital Engineering), low-residence form (2023 - nowadays, finished 1st age).
+* ###### Belarusian State University of Informatics and Radioelectronics (2022); 
+* ###### European Humanities University (Epam School of Digital Engineering), low-residence form (2023 - nowadays, finished 1st age).
 --- 
 ###### Level of English: B2+ (Upper-intermediate). 
