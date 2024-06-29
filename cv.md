@@ -43,5 +43,7 @@ For example I am attaching the link for the [current CV-project](https://github.
 ### **Education:** 
 * Belarusian State University of Informatics and Radioelectronics (2022); 
 * European Humanities University (Epam School of Digital Engineering), low-residence form (2023 - nowadays, finished 1st age).
+
+
 --- 
 Level of English: B2+ (Upper-intermediate). 
