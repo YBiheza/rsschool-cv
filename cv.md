@@ -46,4 +46,5 @@ For example I am attaching the link for the [current CV-project](https://github.
 
 
 --- 
-Level of English: B2+ (Upper-intermediate). 
+### **Level of English: **
+* B2+ (Upper-intermediate). 
