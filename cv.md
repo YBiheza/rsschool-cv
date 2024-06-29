@@ -9,6 +9,30 @@
 ---
 ###### My current stack is HTML, CSS, JS and TS (learn them in the current moment) + GIT;
 ---
+As example of code on Javascript which I can write I am adding a solution from [Codewars-website](https://www.codewars.com/dashboard)
+``` javascript
+function points(games) {
+    let res = Number(0);
+    games.forEach(function(element) {
+      if (element[0]>element[2]) {
+        res = Number(res+3);
+      } else { 
+            if (element[0]<element[2]) {
+            res = Number(res);
+            } else {
+                if (element[0] === element[2]) {
+                res = Number(res + 1);
+                };
+            };
+        };
+    }
+    );
+    return res;
+};
+```
+---
+###### For example I am attaching the link for the current CV-project
+---
 ### **Education:** 
 * Belarusian State University of Informatics and Radioelectronics (2022); 
 * European Humanities University (Epam School of Digital Engineering), low-residence form (2023 - nowadays, finished 1st age).
