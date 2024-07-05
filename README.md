@@ -1,1 +1,1 @@
-https://YBiheza.github.io/rsschool-cv/cv
+https://YBiheza.github.io/rsschool-cv/
