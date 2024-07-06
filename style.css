@@ -1,10 +1,189 @@
 * {
 	box-sizing: border-box;
-  }
+}
+
+html {
+	scroll-behavior: smooth;
+}
 
 body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	font-family: "Montserrat", sans-serif;	
+	background-color: #edeceb;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: rgb(74, 74, 168);
+}
+
+.nav-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0px 20px;
+	line-height: 40px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 18.5px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.nav-item {
+	transition: 0.5s;
+}
+
+.nav-item:hover {
+	transform: scale(1.5);
+}
+
+.main-container {
+	margin-left: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section {
+	width: 50%;
+}
+
+section:first-child {
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.section {
+	  width: 100%;
+	}
+}
+
+.section-title {
+	color: rgb(74, 74, 168);
+}
+
+.profile-info {
+}
+
+.profile-img {
+	width: 183px;
+	height: 240px;
+}
+
+.section {
+}
+
+.contact-number {
+}
+
+.contact-number span {
+	font-weight: 600;
+}
+
+.contact-email-link {
+	text-decoration: none;
+	color: rgb(74, 74, 168);
+}
+
+.contact-email span {
+	font-weight: 600;
+}
+
+.contact-tg-link {
+	text-decoration: none;
+	color: rgb(74, 74, 168);
+}
+
+.contact-tg span{
+	font-weight: 600;
+}
+
+.contact-discord-link {
+	text-decoration: none;
+	color: rgb(74, 74, 168);
+}
+
+.contact-discord span{
+	color: rgb(74, 74, 168);
+	font-weight: 600;
+}
+
+.Skills-list {
+	margin-left: 0px;
+}
+
+.skills-item {
+	position: relative;
+	padding-left: 30px;
+	list-style-type: none;
+}
+
+.skills-item::before {
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 10px;
+	height: 10px;
+	background-color: rgb(74, 74, 168);}
+
+.code-example-info {
+}
+
+.code-example-source {
+	text-decoration: none;
+	color: rgb(74, 74, 168);
+}
+
+.code-example-source:hover {
+	text-decoration: underline;
+}
+
+.code-example {
+	font-size: larger;
+}
+
+.project-link-source {
+	text-decoration: none;
+	color: rgb(74, 74, 168);
+}
+
+.project-link-source:hover {
+	text-decoration: underline;
+}
+
+.university-list {
+	margin-left: 0px;
+}
+
+.university-list-item {
+	position: relative;
+	padding-left: 30px;
+	list-style-type: none;
+}
+
+.university-list-item::before {
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	width: 10px;
+	height: 10px;
+	background-color: rgb(74, 74, 168);
+}
+
+.footer {
 }
