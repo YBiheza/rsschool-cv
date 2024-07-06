@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/174854.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#info" class="nav-link">Info</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#link" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section" id="profile">
+            <h1 class="section-title">Biheza Yanita</h1>
+            <h2 class="profile-info">Junior front-end developer</h2>
+            <img src="./assets/img/photo_2024-06-29_22-17-12.jpg" class="profile-img">
+        </section>
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contact info</h2>
+            <p class="contact-number">Phone number: <span>+375(44)547-87-67</span></p>
+            <p class="contact-email">Email: <span>bihezayanita@gmail.com</span></p>
+            <p class="contact-email">Telegram: <span>@y_bgz</span></p>
+            <p class="contact-discord">Discord: <span>Yanita Biheza (@YBiheza)</span></p>
+        </section>
+        <section class="section" id="info">
+            <h2 class="section-title">Personal info</h2>
+            <p class="info-general">My purpose is to become a front-end developer. It is my major in university but I guess that this pre-stage course is a great opportunity to consolidate knowledge and skills which I got during this semester and recieve some more practical experience. My principles in studing are integrity and high quality of recieved knowledge.</p>
+            <p class="info-general">Now I am program coordinator at the Student center “Hillel”. I am working as an event-manager there, cause in my opinion this work can help me to improve my softskills, such as team work, communication skills, manager skills, stress resistance etc.</p>
+        </section>
+        <section class="section" id="skills">
+            <h2 class="section-title">My skills</h2>
+            <ul class="Skills-list">
+                <li class="skills-item">HTML5</li>
+                <li class="skills-item">CSS</li>
+                <li class="skills-item">JS/TS</li>
+                <li class="skills-item">GIT/Github</li>
+            </ul>
+        </section>
+        <section class="section" id="code">
+            <h2 class="section-title">Code example</h2>
+            <p class="code-example-info">I attached example of my code from <a href="https://www.codewars.com/" class="code-example-source">Codewars-website</a><code class="code-example"><pre>
+function points(games) {
+    let res = Number(0);
+        games.forEach (function(element)) {
+        if (element[0]>element[2]) {
+            res = Number(res+3);
+        } else { 
+            if (element[0] < element[2]) {
+                res = Number(res);
+            } else {
+                if (element[0] === element[2]) {
+                    res = Number(res + 1);
+                };
+            };
+        };
+    return res;
+};
+            </pre></code></p>
+        </section>
+        <section class="section" id="link">
+            <h2 class="section-title">Projects</h2>
+            <p class="project-link">For example I attached the link for the <a href="//" class="project-link">current CV-project</a></p>
+        </section>
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="university -list">
+                <li class="university-list-item">Belarusian State University of Informatics and Radioelectronics (2022);</li>
+                <li class="university-list-item">European Humanities University (Epam School of Digital Engineering), low-residence form (2023 - nowadays, finished 1st age).</li>
+            </ul>
+        </section>
+        <section class="section" id="english">
+            <h2 class="section-title">Languages</h2>
+            <p class="english-level">B2+ (Upper-intermediate)</p>
+        </section>
+    </main>
+    <footer>
 
+    </footer>
 </body>
 </html>

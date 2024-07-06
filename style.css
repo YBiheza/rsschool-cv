@@ -1,7 +1,10 @@
-.header {
-	top:20px;
-}
+* {
+	box-sizing: border-box;
+  }
 
-.main {
-	padding-top:100px;
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: "Montserrat", sans-serif;	
 }
