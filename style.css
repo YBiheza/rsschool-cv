@@ -1,7 +1,248 @@
-.header {
-	top:20px;
+* {
+	box-sizing: border-box;
 }
 
-.main {
-	padding-top:100px;
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+
+	font-family: "Montserrat", sans-serif;	
+
+	background-color: #edeceb;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100vw;
+
+	background-color: #4a4aa8;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+
+	line-height: 40px;
+	text-transform: uppercase;
+	font-size: 18.5px;
+	font-weight: bold;
+	text-decoration: none;
+
+	color: #ffffff;
+}
+
+.nav-item {
+	transition: 0.5s;
+}
+
+.nav-item:hover {
+	transform: scale(1.5);
+}
+
+.main-container {
+	margin-left: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section {
+	width: 50%;
+}
+
+@media (max-width: 768px) {
+	.section {
+	  width: 100%;
+	}
+}
+
+section:first-child {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-title {
+	color: #4a4aa8;
+}
+
+.profile-info {
+	font-weight: 400;
+
+	color: #4a4aa8;
+}
+
+.profile-img {
+	width: 183px;
+	height: 240px;
+}
+
+.contact-list {
+	list-style-type: none;
+}
+
+.contact-item {
+	padding: 10px;
+}
+
+.contact-number {
+	font-weight: 600;
+
+	color: #4a4aa8;
+}
+
+.contact-item-link {
+	font-weight: 600;
+
+	color: #4a4aa8;
+}
+
+.contact-item-link:hover {
+	color: #535374;
+}
+
+.Skills-list {
+	margin-left: 0;
+}
+
+.skills-item {
+	position: relative;
+
+	padding-left: 30px;
+
+	list-style-type: none;
+}
+
+.skills-item::before {
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+
+	background-color: #4a4aa8;
+}
+
+.code-example-source {
+	text-decoration: none;
+	color: #4a4aa8;
+}
+
+.code-example-source:hover {
+	text-decoration: underline;
+}
+
+.code-example {
+	font-size: larger;
+}
+
+.project-link {
+	margin-left: 0;
+}
+
+.project-link-item {
+	position: relative;
+
+	list-style-type: none;
+}
+
+.project-link-item::before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+
+	background-color: #4a4aa8;
+}
+
+.project-link-source {
+	padding-left: 20px;
+
+	text-decoration: none;
+	color: #4a4aa8;
+}
+
+.project-link-source:hover {
+	text-decoration: underline;
+}
+
+.university-list {
+	margin-left: 0;
+}
+
+.university-list-item {
+	position: relative;
+
+	padding-left: 30px;
+
+	list-style-type: none;
+}
+
+.university-list-item::before {
+	content: "";
+	position: absolute;
+	top: 5px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+
+	background-color: #4a4aa8;
+}
+
+.footer {
+	width: 100vw;
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+
+	text-transform: uppercase;
+	font-size: 18.5px;
+	font-weight: bold;
+
+	background-color: #4a4aa8;
+	color: #ffffff;
+}
+
+.rs-logo {
+	height: 50px;
+	width: 200px;
+}
+
+.gh-link-source {
+	padding: 0 30px;
+
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.gh-link {
+	transition: 0.5s;
+}
+
+.gh-link:hover {
+	transform: scale(1.5);
 }
